@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm install npx
-    - run: npm install
-    - run: npm run build
-    - run: npm run ready --if-present
+    - run: npm install npx  --legacy-peer-deps
+    - run: npm install  --legacy-peer-deps
+    - run: npm run build   --legacy-peer-deps
+    - run: npm run ready --if-present  --legacy-peer-deps
