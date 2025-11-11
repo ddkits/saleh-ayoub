@@ -64,8 +64,8 @@
     "font-awesome": "^4.6.1",
     "google-maps-react": "^1.0.13",
     "ol": "^9.2.4",
-    "react": "^18.0",
-    "react-dom": "*",
-    "react-router": "*"
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-router": "^3.2.0"
   }
 }
